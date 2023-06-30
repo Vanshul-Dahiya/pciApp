@@ -124,7 +124,7 @@
       background: #0C99FF;
     }
     .footer-nav {
-      /* position: sticky; */
+      position: sticky;
       margin: -280px auto;
       width: 80%;
     }
