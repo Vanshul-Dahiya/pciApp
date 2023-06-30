@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
 
 import {FlexLayoutModule} from '@angular/flex-layout'
 import { HttpClientModule } from '@angular/common/http';
@@ -22,6 +23,12 @@ import { PendingDashboardComponent } from './pending-dashboard/pending-dashboard
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
+import { SplashscreenComponent } from './splashscreen/splashscreen.component';
+import { LoginComponent } from './login/login.component';
+import { GeneralinformationComponent } from './generalinformation/generalinformation.component';
+import { TableComponent } from './table/table.component';
+import { TravellingAllowanceComponent } from './travelling-allowance/travelling-allowance.component';
+import { ClaimCalculationComponent } from './claim-calculation/claim-calculation.component';
 
 
 @NgModule({
@@ -30,6 +37,12 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
     PendingDashboardComponent,
     NavBarComponent,
     BottomBarComponent,
+    SplashscreenComponent,
+    LoginComponent,
+    GeneralinformationComponent,
+    TableComponent,
+    TravellingAllowanceComponent,
+    ClaimCalculationComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +57,8 @@ import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
     MatToolbarModule,
     MatTabsModule,
     MatListModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],
