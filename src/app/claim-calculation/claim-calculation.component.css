@@ -60,19 +60,16 @@
   
   }
   .footer-nav {
-    /* position: sticky; */
-    margin: -280px auto;
-    width: 80%;
+    position: sticky;
+    /* top: 100%; */
+    width: 100vw;
+    margin-bottom: 0;
+    bottom: 0;
+    z-index: 1;
   }
-  .bottom-bar {
-    display: flex;
-    flex-direction: row;
-    margin: 50px;
-  }
-  .bottom-bar nav {
-    margin: 30px;
-  }
-  @media (max-width: 350px) {
+
+  
+  /* @media (max-width: 350px) {
     .footer-nav {
       margin-left: 30px;
       width: 80%;
@@ -89,7 +86,7 @@
       margin-top: -320px;
       margin-bottom: 0px;
     }
-  } 
+  }  */
   @media (min-width: 451px) and (max-width: 850px) {
     .nav-bar {
         padding-top: 22px;
@@ -160,10 +157,14 @@
       
       
       .footer-nav {
-        /* position: sticky; */
-        margin: -280px auto;
-        width: 80%;
+        position: sticky;
+        /* top: 100%; */
+        width: 100vw;
+        margin-bottom: 0;
+        bottom: 0;
+        z-index: 1;
       }
+
   }
   
   @media (min-width: 300px) and (max-width: 450px) {
@@ -236,17 +237,15 @@
         background: #0C99FF;
       }
       
-      
       .footer-nav {
-        /* position: sticky; */
-        margin: -280px auto;
-        width: 80%;
+        position: sticky;
+        /* top: 100%; */
+        width: 100vw;
+        margin-bottom: 0;
+        bottom: 0;
+        z-index: 1;
       }
-      .footer-nav {
-        /* position: sticky; */
-        margin: -280px auto;
-        width: 80%;
-      }
+
   }
   
   @media (min-width: 200px) and (max-width: 299px) {
@@ -330,17 +329,17 @@
       }
       
       
-      .footer-nav {
-        /* position: sticky; */
-        margin: -280px auto;
-        width: 80%;
-      } .footer-nav {
-      /* position: sticky; */
-      margin: -280px auto;
-      width: 60%;
-    }
+       .footer-nav {
+        position: sticky;
+        /* top: 100%; */
+        width: 100vw;
+        margin-bottom: 0;
+        bottom: 0;
+        z-index: 1;
+      }
+
   }
-  @media screen and (max-height: 700px) {
+  /* @media screen and (max-height: 700px) {
     .footer-nav {
       position: absolute;
       margin: 20px;
@@ -391,4 +390,4 @@
     }
   }
   
-  
+   */

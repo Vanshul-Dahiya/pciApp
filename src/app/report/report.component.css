@@ -1,3 +1,9 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+
 
 .container .background {
     position: absolute;
@@ -34,16 +40,16 @@ background: linear-gradient(180deg, #1DA0FF 4.17%, rgba(14, 9, 240, 0.00) 100%);
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    /* align-items: left; */
+    
   }
   .footer {
-    /* position: absolute; */
+    
     margin: 50px 10px;
     justify-content: center;
     align-items: center;
   }
   .footer button {
-    /* position: relative; */
+   
     margin: 1px auto;
   
     text-align: center;
@@ -72,7 +78,7 @@ background: linear-gradient(180deg, #1DA0FF 4.17%, rgba(14, 9, 240, 0.00) 100%);
     
     text-align: right;
   }
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .bottom-bar {
       margin-top: -220px;
     }
@@ -80,7 +86,7 @@ background: linear-gradient(180deg, #1DA0FF 4.17%, rgba(14, 9, 240, 0.00) 100%);
       margin-left: 30px;
       width: 80%;
       padding: 0;
-      /* margin-top: 10px; */
+     
       margin-bottom: 0px;
     }
   }
@@ -134,4 +140,12 @@ background: linear-gradient(180deg, #1DA0FF 4.17%, rgba(14, 9, 240, 0.00) 100%);
       width: 80%;
     }
   }
-  
+   */
+.footer-nav {
+  position: sticky;
+  /* top: 100%; */
+  width: 100vw;
+  margin-bottom: 0;
+  bottom: 0;
+  z-index: 1;
+}
