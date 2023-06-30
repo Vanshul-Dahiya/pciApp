@@ -8,6 +8,7 @@ import { GeneralinformationComponent } from './generalinformation/generalinforma
 import { TableComponent } from './table/table.component';
 import { TravellingAllowanceComponent } from './travelling-allowance/travelling-allowance.component';
 import { ClaimCalculationComponent } from './claim-calculation/claim-calculation.component';
+import { ClaimFormComponent } from './claim-form/claim-form.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   },
   {
     path : 'pendingDashboard', component:PendingDashboardComponent
+  },
+  {
+    component: ClaimFormComponent,
+    path: 'claimForm'
   },
   { path: 'generalInfo', component: GeneralinformationComponent},
   { path: 'table/:id', component: TableComponent},
