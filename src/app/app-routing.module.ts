@@ -11,6 +11,9 @@ import { ClaimCalculationComponent } from './claim-calculation/claim-calculation
 import { ClaimFormComponent } from './claim-form/claim-form.component';
 import { AttachmentComponent } from './attachment/attachment.component';
 import { ReportComponent } from './report/report.component';
+import { InspectionDashboardComponent } from './inspection-dashboard/inspection-dashboard.component';
+import { InspectionDetailComponent } from './inspection-detail/inspection-detail.component';
+import { PendingDetailComponent } from './pending-detail/pending-detail.component';
 
 const routes: Routes = [
   {
@@ -37,8 +40,9 @@ const routes: Routes = [
   { path: 'calculation', component: ClaimCalculationComponent},
   { path: 'attachment', component: AttachmentComponent},
   { path: 'report', component: ReportComponent},
-
-  
+  { path: 'inspectionDashboard', component: InspectionDashboardComponent},
+  { path: 'inspectionDetail', component: InspectionDetailComponent},
+  { path: 'pendingDetail', component: PendingDetailComponent},
 ];
 
 @NgModule({
