@@ -20,13 +20,10 @@ export class LoginComponent {
     this.showPassword = false;
 
   }
-  
   onLogin(){
     console.log('Logging in...');
     console.log('Username:', this.username);
     console.log('Password:', this.password);
-    this.router.navigate(['/Dashboard']);
+    this.router.navigate(['/pendingDashboard']);
   }
-
-
 }

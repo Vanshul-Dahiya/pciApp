@@ -21,9 +21,9 @@ const routes: Routes = [
     component: LoginComponent,
     path: 'login'
   },
-  {
-    path : '', component:PendingDashboardComponent
-  },
+  // {
+  //   path : '/', component:PendingDashboardComponent
+  // },
   {
     path : 'pendingDashboard', component:PendingDashboardComponent
   },
