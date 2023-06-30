@@ -5,12 +5,12 @@
 }
 .nav-bar {
   position: sticky;
-  height: 5vh;
+  /* height: 5vh; */
   top: 0;
-  width: 100vw;
-  border-bottom-left-radius: 11px;
-  border-bottom-right-radius: 11px;
-  background-image: linear-gradient(rgb(155, 192, 159), rgb(104, 122, 95));
+  /* width: 100vw; */
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+  /* background-image: linear-gradient(rgb(155, 192, 159), rgb(104, 122, 95)); */
   z-index: 1;
 }
 .scrollable-container {
