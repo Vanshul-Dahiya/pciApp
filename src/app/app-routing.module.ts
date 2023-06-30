@@ -10,6 +10,7 @@ import { TravellingAllowanceComponent } from './travelling-allowance/travelling-
 import { ClaimCalculationComponent } from './claim-calculation/claim-calculation.component';
 import { ClaimFormComponent } from './claim-form/claim-form.component';
 import { AttachmentComponent } from './attachment/attachment.component';
+import { ReportComponent } from './report/report.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,9 @@ const routes: Routes = [
   { path: 'travelingAllowance', component: TravellingAllowanceComponent},
   { path: 'calculation', component: ClaimCalculationComponent},
   { path: 'attachment', component: AttachmentComponent},
+  { path: 'report', component: ReportComponent},
+
+  
 ];
 
 @NgModule({
