@@ -31,6 +31,7 @@ import { TravellingAllowanceComponent } from './travelling-allowance/travelling-
 import { ClaimCalculationComponent } from './claim-calculation/claim-calculation.component';
 import { ClaimFormComponent } from './claim-form/claim-form.component';
 import { AttachmentComponent } from './attachment/attachment.component';
+import { ReportComponent } from './report/report.component';
 
 
 @NgModule({
@@ -47,6 +48,8 @@ import { AttachmentComponent } from './attachment/attachment.component';
     ClaimCalculationComponent,
     ClaimFormComponent,
     AttachmentComponent,
+    ReportComponent,
+   
   ],
   imports: [
     BrowserModule,
