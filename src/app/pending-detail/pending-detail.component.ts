@@ -12,7 +12,7 @@ export class PendingDetailComponent {
 
   gridConfig :any[]=[];
   getColor(index : number): string {
-    const baseColor = '#DB4747' ; 
+    const baseColor = '#b4d2ee' ; 
     const colorVariant = tinycolor(baseColor).lighten(index * 5).toString();
     console.log( " colorV ->  "  , colorVariant)
     return colorVariant;

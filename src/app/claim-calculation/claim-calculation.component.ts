@@ -10,6 +10,6 @@ export class ClaimCalculationComponent {
   constructor(private router : Router){}
 
   navigate(){
-    this.router.navigate(['/list'])
+    this.router.navigate(['/'])
   }
 }

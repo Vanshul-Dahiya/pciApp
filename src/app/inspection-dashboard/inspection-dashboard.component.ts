@@ -12,7 +12,7 @@ export class InspectionDashboardComponent {
   constructor(private router : Router,private http: HttpClient){}
   gridConfig: any[] =[]; 
   getColor(index : number): string {
-    const baseColor = '#F4DC04'; // Replace with your desired base color
+    const baseColor = '#b4d2ee'; // Replace with your desired base color
     const colorVariant = tinycolor(baseColor).lighten(index * 5).toString();
     console.log( " colorV ->  "  , colorVariant)
     return colorVariant;
