@@ -74,6 +74,7 @@
   margin: 30px;
 }
 .LHS {
+  margin-left: 10px;
   text-align: left;
 }
 .RHS {
@@ -85,7 +86,7 @@
   overflow: hidden;
 }
 span {
-  margin-left: 10px;
+  /* margin-left: 10px; */
   padding-left: 2px;
   line-break: auto;
   overflow-x: auto;

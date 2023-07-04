@@ -95,7 +95,11 @@
     rgba(0, 0, 0, 0) 100%
   );
 }
-.wording{
+.wording {
+  /* padding: 6px; margin: 8px; */
+  margin: 0;
+  padding: 0;
+  margin-left: 0;
   word-wrap: break-word;
   word-break: break-all;
 }
